@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogicTest</title>
+  </head>
+  <style>
+    #submit {
+      margin-left: 6rem;
+    }
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <h1>Logic Test</h1>
+    <h3>Nama: Pratama Azendika Marpaung</h3>
+    <br />
+    <br />
+    <h2>Case 1:</h2>
+    <div class="hitungPecahan">
+      Masukan uang: <input type="text" id="uang" /><br /><br />
+      <input type="button" onclick="HitungPecahan()" value="submit" id="submit" />
+      <p id="seratus_ribu"></p>
+      <p id="limapuluh_ribu"></p>
+      <p id="duapuluh_ribu"></p>
+      <p id="limaribu"></p>
+      <p id="seratus"></p>
+      <p id="limapuluh"></p>
+      <br />
+    </div>
+
+    <script src="case1.js"></script>
+
+    <h2>Case 2:</h2>
+    Masukan nilai: <input type="text" id="nilai" /><br /><br />
+    <input type="button" onclick="HitungNilai()" value="submit" id="submit" />
+    <p id="hasil_nilai"></p>
+    <h1 id="tete"></h1>
+
+    <script src="case2.js"></script>
+
+    <h2>Case 3:</h2>
+    Masukan Angka: <input type="text" id="input" /><br /><br />
+    <input type="button" onclick="View()" value="submit" id="submit" />
+
+    <p id="baris1"></p>
+    <p id="baris2"></p>
+    <p id="baris3"></p>
+    <p id="baris4"></p>
+    <p id="baris5"></p>
+    <p id="baris6"></p>
+    <p id="baris7"></p>
+
+    <script src="case3.js"></script>
+  </body>
+</html>
