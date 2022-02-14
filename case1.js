@@ -1,42 +1,5 @@
 function HitungPecahan() {
-  /*
-  var uang, temp;
-  var data = [100000, 50000, 20000, 5000, 100, 50];
-  var i, jml;
-  var uang = document.getElementById('uang').value;
-  var temp = uang;
-
-  for (i = 0; i <= 6; i++) {
-    jml = temp / data[i];
-    temp = temp - data[i] * jml;
-    document.getElementById('pecahan').innerHTML = 'Jumlah : ' + data[i] + jml + ' Lembar';
-  }
-  */
-  /*main(){
-   
-  long int uang,temp,data[7]={100000,50000,20000,10000,5000,2000,1000};
-  int i,jml;
-   
-  printf("\nMasukan Jumlah Uang : ");scanf("%li",&uang);
-  printf("\n========================================");
-   
-  temp=uang;
-  printf("\nOutput Pecahan Uang : ");
-  for(i=0;i<=6;i++){
-      jml = temp / data[i];
-      temp = temp - (data[i]*jml);
-   
-      printf("\n%d) %li : %d",i,data[i],jml);
-      if(temp == 0) {
-          break;
-      }
-  }
-   
-  getch();
-   
-  }
-  */
-
+  
   var uang = document.getElementById('uang').value;
   var seratusribu, limapuluhribu, duapuluhribu, limaribu, seratus, limapuluh;
   var a, b, c, d, e, f;
